@@ -63,7 +63,8 @@ main .site-title {
     font-size: 4.2rem;
     color: #14c0c9; }
 main p {
-  font-size: 1.6rem; }
+  padding: 10px;
+  font-size: 1.5rem; }
 
 /* Contents
 ------------------------------------------------------------*/
@@ -81,7 +82,8 @@ section {
       height: 30px;
       margin-bottom: 5px;
       padding-top: 10px;
-      font-size: 1.5rem;
+      background-color: $keyColor;
+      font-size: 2rem;
       color: #FFF;
       text-align: center;
       @include box-sizing(border-box);
@@ -97,12 +99,11 @@ section {
     flex-direction: column; }
   #skills h2 {
     color: #14c0c9;
-    margin-bottom: 60px; }
+    margin-bottom: 20px; }
   #skills .skill-box {
     -webkit-flex: 1;
     flex: 1;
     margin: 10px 0;
-    padding: 20px;
     background-color: #00cccc;
     -moz-border-radius: 0px;
     -webkit-border-radius: 0px;
@@ -110,12 +111,12 @@ section {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box; }
-  #skills .skill-box-title {
-    background-color: #14c0c9; }
   #skills h3 {
+    background-color: #14c0c9;
     color: #fdfcf6;
     margin-bottom: 10px;
-    font-size: 2.5rem;
+    padding: 10px;
+    font-size: 2rem;
     font-weight: bold; }
 
 #contact {

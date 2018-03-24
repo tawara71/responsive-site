@@ -78,7 +78,8 @@ main {
     }
   }
   p {
-    font-size: 1.6rem;
+    padding: 10px;
+    font-size: 1.5rem;
   }
 }
 
@@ -108,19 +109,14 @@ section {
   }
   h2 {
     color: $keyColor;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
   }
   .skill-box {
     @include flex(1);
     margin: 10px 0;
-    padding: 20px;
     background-color: $subColor;
     @include border-radius(0px);
     @include box-sizing(border-box);
-  }
-  
-  .skill-box-title {
-    background-color: $keyColor;
   }
   
   
@@ -129,7 +125,8 @@ section {
     height: 30px;
     margin-bottom: 5px;
     padding-top: 10px;
-    font-size: 1.5rem;
+    background-color: $keyColor;
+    font-size: 2rem;
     color: #FFF;
     text-align: center;
     @include box-sizing(border-box);
@@ -140,9 +137,11 @@ section {
   h3 {
     @extend .abel;
     @extend .uppercase;
+    background-color: $keyColor;
     color: $baseColor;
     margin-bottom:10px;
-    font-size: 2.5rem;
+    padding: 10px;
+    font-size: 2rem;
     font-weight: bold;
     }
   }
